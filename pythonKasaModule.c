@@ -1,8 +1,6 @@
 //pythonKasaModule.c
 
 
-//g++ -shared -fPIC pythonKasaModule.c kasaLight.cpp     $(python3-config --cflags)     $(python3-config --ldflags --embed)     -o pythonKasaModule.cpython-312-x86_64-linux-gnu.so
-
 #define PY_SSIZE_T_CLEAN
 #include <Python.h>
 #include "kasaLight.h"
